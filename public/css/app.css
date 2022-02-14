@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  background-color: white;
+}
+
+header nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  color: #303030;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  height: 103px;
+}
+
+header nav img {
+  height: 90%;
+}
+
+header nav ul {
+  margin-left: auto;
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: auto 10px;
+  line-height: 100px;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+}
+
+header nav ul li:hover,
+header nav ul li.active {
+  border-bottom: 3px solid #097ceb;
+  color: #097ceb;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: inherit;
+  text-transform: inherit;
+  line-height: inherit;
+}
+
+footer {
+  background-color: #303030;
+  color: white;
+}
+
+footer .pre-footer {
+  background-image: url("/public/images/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  overflow: hidden;
+}
+
+footer .pre-footer .container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+footer .pre-footer .container .col.left {
+  height: 100%;
+  width: 50%;
+  padding: 30px 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+footer .pre-footer .container .col.left .inside-col {
+  margin-right: 30px;
+}
+
+footer .pre-footer .container .col.left h3 {
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+footer .pre-footer .container .col.left ul {
+  list-style-type: none;
+}
+
+footer .pre-footer .container .col.left ul li {
+  font-weight: 100;
+  margin: 5px 0;
+}
+
+footer .pre-footer .container .col.left ul li a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: inherit;
+}
+
+footer .pre-footer .container .col.right #footer-logo-bg {
+  overflow: hidden;
+  margin: -70px 0px;
+}
+
+footer .end-footer {
+  background-color: #303030;
+  padding: 30px 0;
+}
+
+footer .end-footer .container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+footer .end-footer .container .col button {
+  background-color: #303030;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border: 1px solid #097ceb;
+  cursor: pointer;
+}
+
+footer .end-footer .container .col h4 {
+  color: #097ceb;
+  text-transform: uppercase;
+  margin: 0px 15px;
+}
+
+footer .end-footer .container .col ul {
+  list-style-type: none;
+}
+
+footer .end-footer .container .col ul li {
+  display: inline-block;
+  margin: 0px 5px;
+}
+
+footer .end-footer .container .col.right {
+  margin-left: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
