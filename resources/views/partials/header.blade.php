@@ -9,7 +9,7 @@
                     <a href="#">Characters</a>
                 </li>
                 <li class="{{ Request::route()->getName() === 'homepage' ? 'active' : '' }}">
-                    <a href="#">Comics</a>
+                    <a href="{{ route('homepage') }}">Comics</a>
                 </li>
                 <li class="{{ Request::route()->getName() === 'movies' ? 'active' : '' }}">
                     <a href="#">Movies</a>

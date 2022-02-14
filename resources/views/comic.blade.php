@@ -16,7 +16,7 @@ Comic Details
 
         <div class="comic-info">
 
-            <span>{{ $comic_info['description'] }}</span>
+            <p>{{ $comic_info['description'] }}</p>
                 
         </div>
 
