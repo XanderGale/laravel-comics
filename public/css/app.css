@@ -101,6 +101,7 @@ main .load-more {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: flex-start;
+  cursor: pointer;
   width: calc(16.6666666667% - 10px);
   margin: 5px;
 }
