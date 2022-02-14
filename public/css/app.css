@@ -121,6 +121,18 @@ main .load-more {
   color: inherit;
 }
 
+.buy-now {
+  padding: 10px 50px;
+  margin: 10px;
+  background-color: #097ceb;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid #097ceb;
+  cursor: pointer;
+}
+
 footer {
   background-color: #303030;
   color: white;

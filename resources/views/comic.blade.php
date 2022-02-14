@@ -20,7 +20,7 @@ Comic Details
                 
         </div>
 
-        <button class="">Buy Now</button>
+        <button class="buy-now">Buy Now</button>
 
     </div>
 
