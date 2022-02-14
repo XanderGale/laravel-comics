@@ -14,6 +14,8 @@
     
     @include('partials.header')
 
+    @include('partials.jumbo')
+
     <main>
         @yield('main_content')
     </main>

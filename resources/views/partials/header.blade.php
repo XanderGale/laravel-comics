@@ -8,7 +8,7 @@
                 <li>
                     <a href="#">Characters</a>
                 </li>
-                <li>
+                <li class="active">
                     <a href="#">Comics</a>
                 </li>
                 <li>

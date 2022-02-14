@@ -9,5 +9,23 @@ Home
 @endsection
 
 @section('main_content')
-test
+
+    <div class="container">
+
+        <span class="section-title">Current Series</span>
+
+        <div class="comics-list">
+
+        @foreach ($comics as $comic)
+
+        @include('components.comicitem')
+
+        @endforeach
+            
+        </div>
+
+        <button class="load-more">Load More</button>
+
+    </div>
+
 @endsection
